@@ -1,0 +1,22 @@
+.owner_notes{
+    margin: 20px 0px;
+    padding: 10px;
+}
+.owner_name{
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+}
+.owner_name font{
+    color: red;
+}
+.not_note{
+    width: 100% !important;
+    background-color: gray;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    
+}

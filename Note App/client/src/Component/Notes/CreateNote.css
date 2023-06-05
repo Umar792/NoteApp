@@ -1,0 +1,35 @@
+.create_your_note{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create_your_note_child{
+    width: 600px;
+}
+.create_your_note_child input{
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+}
+.create_your_note_child textarea{
+    outline: none;
+    border: none;
+}
+.create_your_note_child button{
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 8px 10px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+
+@media(max-width : 620px){
+    .create_your_note_child{
+        width: 100%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.single_note{
+    margin: 30px 0px;
+    padding: 5px 10px;
+}
+.single_note h1{
+font-weight: bold;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.single_note p{
+    margin: 10px 0px;
+    text-align: justify;
+}

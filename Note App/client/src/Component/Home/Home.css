@@ -1,0 +1,47 @@
+.Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+.Home h1{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Home h1 font{
+    color: red;
+}
+
+/* ---------- right_home */
+.right_home ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_home ul li{
+    list-style: none;
+    padding: 2px 20px;
+    margin: 0px 10px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+}
+.right_home ul li:hover{
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+}
+
+
+@media(max-width : 500px){
+    .Home{
+        padding: 13px 10px;
+    }
+    
+}

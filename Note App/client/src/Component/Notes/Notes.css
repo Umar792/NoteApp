@@ -1,0 +1,82 @@
+.Notes{
+    margin: 30px 0px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1300px;
+}.Note_Parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.create_note{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    background-color: red;
+    padding: 6px 20px;
+    color: white;
+    cursor: pointer;
+}
+.all_notest_child{
+    border: 1px solid rgb(214, 210, 210);
+    width: 300px;
+    height: 250px;
+    padding: 0px 5px;
+    
+}
+.all_notest_child:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .3);
+}
+.all_notest_child .author{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 3px;
+    color: gray;
+}
+.author font{
+    font-weight: bold;
+}
+.all_notest_child h1{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 3px;
+}
+.all_notest_child .dis{
+    margin-bottom: 10px;
+}
+.all_notest_child button{
+    margin: 10px 0px;
+    padding: 3px 0px;
+    color: purple;
+}
+
+
+/* ------------delete */
+.not_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0px 10px 0px;
+}
+.delete{
+    float: right;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media(max-width : 310px){
+    .all_notest_child{
+        width: 250px;
+        height: 300px;
+    }
+}
